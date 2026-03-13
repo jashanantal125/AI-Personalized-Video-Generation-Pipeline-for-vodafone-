@@ -4,6 +4,7 @@
 
 This project is an **automation and data processing platform** built for **Vodafone Idea (Vi)** to manage large-scale marketing campaigns and personalized video offers.
 
+
 It ingests encrypted telecom data from Vi servers, applies **advanced validation and deduplication logic**, stores cleaned data in a **MySQL analytics schema**, and then drives a **multi-language personalized video generation pipeline** using **Google Cloud Text-to-Speech (TTS)**.
 
 The system is designed with strong themes around **Advanced Analytics, Data Science, and Computer Engineering**, and can support use cases aligned with:
@@ -15,7 +16,7 @@ The system is designed with strong themes around **Advanced Analytics, Data Scie
 <img width="906" height="773" alt="Screenshot 2026-03-13 at 6 33 39 PM" src="https://github.com/user-attachments/assets/363d56fc-0f65-40ae-9873-a427c9bf0ea1" />
 
 ---
-
+This repository is published as a sanitized showcase: it highlights architecture and implementation patterns while intentionally excluding sensitive configurations and any real client data.
 ## Core Features
 
 ### 1. High-Volume CSV Ingestion & Cleaning
