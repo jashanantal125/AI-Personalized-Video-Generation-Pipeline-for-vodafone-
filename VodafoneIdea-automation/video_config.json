@@ -1,0 +1,676 @@
+{
+  "video_configs": {
+  "1": {
+    "input_video_path": "input_videos/01.mp4",
+    "empty_value_video_path": "empty_videos/01.mp4",
+    "is_dynamic_font_circle": false,
+    "language_code": "te-IN",
+    "tts_voice_name": "te-IN-Chirp3-HD-Achernar",
+    "validity_start_time": 28.45,
+    "amount_start_time": 31.80,
+    "val_text_start_time": 26.70,
+    "val_text_end_time": 29.70,
+    "amnt_text_start_time": 32.40,
+    "amnt_text_end_time": 34.50,
+    "speaking_rates": {
+      "1": 0.8,
+      "2": 0.9,
+      "3": 1.2,
+      "4": 1.6
+    },
+    "coordinates_map": {
+      "1": {
+        "validity": [820, 634, 350, 620],
+        "amount": [320, 610, 60, 650]
+      },
+      "2": {
+        "validity": [810, 634, 350, 620],
+        "amount": [280, 610, 50, 650]
+      },
+      "3": {
+        "validity": [800, 634, 350, 620],
+        "amount": [280, 610, 50, 650]
+      },
+      "4": {
+        "validity": [780, 634, 350, 620],
+        "amount": [965, 810, 985, 875]
+      }
+    }
+    },
+    "2": {
+    "input_video_path": "input_videos/02.mp4",
+    "empty_value_video_path": "empty_videos/02.mp4",
+    "is_dynamic_font_circle": false,
+    "language_code": "ta-IN",
+    "tts_voice_name": "ta-IN-Chirp3-HD-Sulafat",
+    "validity_start_time": 18.90,
+    "amount_start_time": 22.00,
+    "val_text_start_time": 18.15,
+    "val_text_end_time": 20.26,
+    "amnt_text_start_time": 23.00,
+    "amnt_text_end_time": 26.05,
+    "speaking_rates": {
+      "1": 0.8,
+      "2": 1.0,
+      "3": 1.2,
+      "4": 1.6
+    },
+    "coordinates_map": {
+      "1": {
+        "validity": [640, 605, 640, 605],
+        "amount": [40, 585, 40, 585]
+      },
+      "2": {
+        "validity": [630, 605, 630, 605],
+        "amount": [30, 585, 30, 585]
+      },
+      "3": {
+        "validity": [620, 605, 620, 605],
+        "amount": [20, 585, 20, 585]
+      },
+      "4": {
+        "validity": [610, 605, 610, 605],
+        "amount": [10, 585, 10,585]
+      }
+    }
+    },
+    "3": {
+    "input_video_path": "input_videos/03.mp4",
+    "empty_value_video_path": "empty_videos/03.mp4",
+    "is_dynamic_font_circle": false,
+    "language_code": "hi-IN",
+    "tts_voice_name": "hi-IN-Neural2-A",
+    "validity_start_time": 24.30,
+    "amount_start_time": 27.20,
+    "val_text_start_time": 22.09,
+    "val_text_end_time": 27.14,
+    "amnt_text_start_time": 27.14,
+    "amnt_text_end_time": 31.17,
+    "speaking_rates": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.1,
+      "4": 1.4
+    },
+    "coordinates_map": {
+      "1": {
+        "validity": [570, 580, 590, 580],
+        "amount": [135, 585, 130, 585]
+      },
+      "2": {
+        "validity": [585, 580, 595, 580],
+        "amount": [110, 585, 110, 585]
+      },
+      "3": {
+        "validity": [565, 580, 575, 580],
+        "amount": [100, 585, 100, 585]
+      },
+      "4": {
+        "validity": [860, 880, 860, 880],
+        "amount": [180, 880, 180, 880]
+      }
+    }
+    },
+    "4": {
+      "input_video_path": "input_videos/04.mp4",
+      "empty_value_video_path": "empty_videos/04.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time" : 24.0,
+      "amount_start_time" : 27.0,
+      "val_text_start_time" : 21.40,
+      "val_text_end_time" : 27.55,
+      "amnt_text_start_time" : 27.65,
+      "amnt_text_end_time" : 32.00,
+      "speaking_rates": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.2,
+        "4": 1.6
+      },
+      "coordinates_map": {
+        "1": {
+        "validity": [895, 890, 895,890],
+        "amount": [210, 880, 210,880]
+        },
+        "2": {
+            "validity": [885, 890, 885,890],
+            "amount": [180, 880, 180,880]
+        },
+        "3": {
+            "validity": [880, 890, 880,890],
+            "amount": [150, 880, 150,880]
+        },
+        "4": {
+            "validity": [880, 890, 880,890],
+            "amount": [150, 880, 150,880]
+        }
+      }
+    },
+    "5": {
+      "input_video_path": "input_videos/05.mp4",
+      "empty_value_video_path": "empty_videos/05.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "gu-IN",
+      "tts_voice_name": "gu-IN-Chirp3-HD-Laomedeia",
+      "validity_start_time": 26.00,
+      "amount_start_time": 31.09,
+      "val_text_start_time": 26.00,
+      "val_text_end_time": 28.70,
+      "amnt_text_start_time": 29.30,
+      "amnt_text_end_time": 32.10,
+      "speaking_rates": {
+        "1": 0.8,
+        "2": 0.9,
+        "3": 1.0,
+        "4": 1.6
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [100, 640, 220, 620],
+          "amount": [360, 610, 540, 650]
+        },
+        "2": {
+          "validity": [100, 640, 220, 620],
+          "amount": [360, 610, 540, 650]
+        },
+        "3": {
+          "validity": [60, 640, 220, 620],
+          "amount": [350, 610, 530, 650]
+        },
+        "4": {
+          "validity": [30, 640, 220, 620],
+          "amount": [350, 610, 540, 650]
+        }
+      }
+    },
+    "6": {
+      "input_video_path": "input_videos/06.mp4",
+      "empty_value_video_path": "empty_videos/06.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time": 23.1,
+      "amount_start_time": 26.1,
+      "val_text_start_time": 21.10,
+      "val_text_end_time": 26.0,
+      "amnt_text_start_time": 26.22,
+      "amnt_text_end_time": 30.33,
+      "speaking_rates": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.2,
+        "4": 1.6
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [580, 580, 580, 580],
+          "amount": [100, 580, 100, 580]
+        },
+        "2": {
+          "validity": [580, 580, 580, 580],
+          "amount": [100, 580, 100, 580]
+        },
+        "3": {
+          "validity": [580, 580, 580, 580],
+          "amount": [70, 580, 100, 580]
+        },
+        "4": {
+          "validity": [580, 580, 580, 580],
+          "amount": [40, 580, 100, 580]
+        }
+      }
+    },
+    "7": {
+      "input_video_path": "input_videos/07.mp4",
+      "empty_value_video_path": "empty_videos/07.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "kn-IN",
+      "tts_voice_name": "kn-IN-Standard-C",
+      "validity_start_time": 21.80,
+      "amount_start_time": 24.55,
+      "val_text_start_time": 19.80,
+      "val_text_end_time": 23.50,
+      "amnt_text_start_time": 23.70,
+      "amnt_text_end_time": 27.50,
+      "speaking_rates": {
+        "1": 0.8,
+        "2": 1.0,
+        "3": 1.3,
+        "4": 1.7
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [605, 605, 605, 605],
+          "amount": [535, 605, 535, 605]
+        },
+        "2": {
+          "validity": [590, 605, 590, 605],
+          "amount": [520, 605, 520, 605]
+        },
+        "3": {
+          "validity": [590, 605, 590, 605],
+          "amount": [520, 605, 520, 605]
+        },
+        "4": {
+          "validity": [575, 605, 575, 605],
+          "amount": [505, 605, 505, 605]
+        }
+      }
+    },
+    "8": {
+      "input_video_path": "input_videos/08.mp4",
+      "empty_value_video_path": "empty_videos/08.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "bn-IN",
+      "tts_voice_name": "bn-IN-Chirp3-HD-Callirrhoe",
+      "validity_start_time": 23.10,
+      "amount_start_time": 25.50,
+      "val_text_start_time": 22.30,
+      "val_text_end_time": 24.30,
+      "amnt_text_start_time": 24.40,
+      "amnt_text_end_time": 26.80,
+      "speaking_rates": {
+        "1": 0.8,
+        "2": 0.9,
+        "3": 1.2,
+        "4": 1.5
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [580, 610, 450, 620],
+          "amount": [440, 580, 530, 650]
+        },
+        "2": {
+	  "validity": [580, 610, 450, 620],
+          "amount": [440, 580, 530, 650]
+        },
+        "3": {
+          "validity": [580, 610, 450, 620],
+          "amount": [440, 580, 520, 650]
+        },
+        "4": {
+          "validity": [580, 610, 450, 620],
+          "amount": [440, 580, 530, 650]
+        }
+      }
+    },
+    "9": {
+      "input_video_path": "input_videos/09.mp4",
+      "empty_value_video_path": "empty_videos/09.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time": 23.10,
+      "amount_start_time": 26.50,
+      "val_text_start_time": 22.90,
+      "val_text_end_time": 26.05,
+      "amnt_text_start_time": 26.05,
+      "amnt_text_end_time": 28.40,
+      "speaking_rates": {
+        "1": 0.8,
+        "2": 0.8,
+        "3": 0.9,
+        "4": 0.1
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [535, 645, 535, 645],
+          "amount": [510, 645, 510, 645]
+        },
+        "2": {
+          "validity": [535, 645, 535, 645],
+          "amount": [510, 645, 510, 645]
+        },
+        "3": {
+          "validity": [525, 645, 525, 645],
+          "amount": [500, 645, 500, 645]
+        },
+        "4": {
+          "validity": [525, 645, 525, 645],
+          "amount": [500, 645, 500, 645]
+        }
+      }
+    },
+    "10": {
+      "input_video_path": "input_videos/10.mp4",
+      "empty_value_video_path": "empty_videos/10.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time": 23.20,
+      "amount_start_time": 26.00,
+      "val_text_start_time": 20.95,
+      "val_text_end_time": 26.55,
+      "amnt_text_start_time": 26.75,
+      "amnt_text_end_time": 30.47,
+      "speaking_rates": {
+        "1": 0.8,
+        "2": 0.9,
+        "3": 1.0,
+        "4": 1.5
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [570, 580, 590, 580],
+          "amount": [135, 585, 130, 585]
+        },
+        "2": {
+          "validity": [585, 580, 595, 580],
+          "amount": [110, 585, 110, 585]
+        },
+        "3": {
+          "validity": [565, 580, 575, 580],
+          "amount": [100, 585, 100, 585]
+        },
+        "4": {
+          "validity": [565, 580, 575, 580],
+          "amount": [85, 585, 85, 585]
+        }
+      }
+    },
+    "11": {
+      "input_video_path": "input_videos/11.mp4",
+      "empty_value_video_path": "empty_videos/11.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "bn-IN",
+      "tts_voice_name": "bn-IN-Chirp3-HD-Callirrhoe",
+      "validity_start_time" : 23.00,
+      "amount_start_time" : 25.50,
+      "val_text_start_time" : 22.30,
+      "val_text_end_time" : 24.30,
+      "amnt_text_start_time" : 24.40,
+      "amnt_text_end_time" : 26.70,
+      "speaking_rates": {
+        "1": 0.8,
+        "2": 0.9,
+        "3": 1.2,
+        "4": 1.5
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [580, 610, 450, 620],
+          "amount": [440, 580, 530, 650]
+        },
+        "2": {
+          "validity": [580, 610, 450, 620],
+          "amount": [440, 580, 530, 650]
+        },
+        "3": {
+          "validity": [580, 610, 450, 620],
+          "amount": [870, 705, 880, 855]
+        },
+        "4": {
+          "validity": [580, 610, 450, 620],
+          "amount": [440, 580, 530, 650]
+        }
+      }
+    },
+    "12": {
+      "input_video_path": "input_videos/12.mp4",
+      "empty_value_video_path": "empty_videos/12.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time": 22.80,
+      "amount_start_time": 26.00,
+      "val_text_start_time": 21.20,
+      "val_text_end_time": 26.24,
+      "amnt_text_start_time": 26.40,
+      "amnt_text_end_time": 30.12,
+      "speaking_rates": {
+        "1": 0.8,
+        "2": 0.9,
+        "3": 1.3,
+        "4": 1.5
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [710, 730, 710, 730],
+          "amount": [200, 730, 140, 730]
+        },
+        "2": {
+          "validity": [700, 730, 700, 730],
+          "amount": [180, 730, 140, 730]
+        },
+        "3": {
+          "validity": [700, 730, 700, 730],
+          "amount": [160, 730, 140, 730]
+        },
+        "4": {
+          "validity": [700, 730, 700, 730],
+          "amount": [140, 730, 140, 730]
+        }
+      }
+    },
+    "13": {
+      "input_video_path": "input_videos/04.mp4",
+      "empty_value_video_path": "empty_videos/04.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time" : 24.0,
+      "amount_start_time" : 27.0,
+      "val_text_start_time" : 21.40,
+      "val_text_end_time" : 27.55,
+      "amnt_text_start_time" : 27.65,
+      "amnt_text_end_time" : 32.00,
+      "speaking_rates": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.2,
+        "4": 1.6
+      },
+      "coordinates_map": {
+        "1": {
+        "validity": [895, 890, 895,890],
+        "amount": [210, 880, 210,880]
+        },
+        "2": {
+            "validity": [885, 890, 885,890],
+            "amount": [180, 880, 180,880]
+        },
+        "3": {
+            "validity": [880, 890, 880,890],
+            "amount": [150, 880, 150,880]
+        },
+        "4": {
+            "validity": [880, 890, 880,890],
+            "amount": [150, 880, 150,880]
+        }
+      }
+    },
+    "14": {
+      "input_video_path": "input_videos/14.mp4",
+      "empty_value_video_path": "empty_videos/14.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "mr-IN",
+      "tts_voice_name": "mr-IN-Standard-A",
+      "validity_start_time" : 24.50,
+      "amount_start_time" : 28.40,
+      "val_text_start_time" : 22.35,
+      "val_text_end_time" : 26.06,
+      "amnt_text_start_time" : 28.09,
+      "amnt_text_end_time" : 34.00,
+      "speaking_rates": {
+        "1": 0.8,
+        "2": 0.9,
+        "3": 1.1,
+        "4": 1.3
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [660, 775, 660, 775],
+          "amount": [140, 755, 140, 755]
+        },
+        "2": {
+          "validity": [650, 775, 650, 775],
+          "amount": [130, 755, 130, 755]
+        },
+        "3": {
+          "validity": [640, 775, 640, 775],
+          "amount": [100, 755, 100, 755]
+        },
+        "4": {
+          "validity": [635, 775, 635, 775],
+          "amount": [90, 755, 90, 755]
+        }
+      }
+    },
+    "15": {
+    "input_video_path": "input_videos/15.mp4",
+    "empty_value_video_path": "empty_videos/15.mp4",
+    "is_dynamic_font_circle": false,
+    "language_code": "ta-IN",
+    "tts_voice_name": "ta-IN-Chirp3-HD-Sulafat",
+    "validity_start_time": 18.90,
+    "amount_start_time": 22.00,
+    "val_text_start_time": 18.15,
+    "val_text_end_time": 20.26,
+    "amnt_text_start_time": 23.00,
+    "amnt_text_end_time": 26.05,
+    "speaking_rates": {
+      "1": 0.8,
+      "2": 1.0,
+      "3": 1.2,
+      "4": 1.6
+    },
+    "coordinates_map": {
+      "1": {
+        "validity": [640, 605, 640, 605],
+        "amount": [40, 585, 40, 585]
+      },
+      "2": {
+        "validity": [630, 605, 630, 605],
+        "amount": [30, 585, 30, 585]
+      },
+      "3": {
+        "validity": [620, 605, 620, 605],
+        "amount": [20, 585, 20, 585]
+      },
+      "4": {
+        "validity": [610, 605, 610, 605],
+        "amount": [10, 585, 10,585]
+      }
+    }
+    },
+    "16": {
+      "input_video_path": "input_videos/16.mp4",
+      "empty_value_video_path": "empty_videos/16.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "ml-IN",
+      "tts_voice_name": "ml-IN-Chirp3-HD-Achernar",
+      "validity_start_time": 14.00,
+      "amount_start_time": 16.50,
+      "val_text_start_time": 14.20,
+      "val_text_end_time": 15.30,
+      "amnt_text_start_time": 17.00,
+      "amnt_text_end_time": 18.40,
+      "speaking_rates": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.1,
+        "4": 1.4
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [210, 634, 370, 620],
+          "amount": [550, 610, 140, 650]
+        },
+        "2": {
+          "validity": [170, 634, 370, 620],
+          "amount": [520, 610, 140, 650]
+        },
+        "3": {
+          "validity": [140, 634, 370, 620],
+          "amount":  [490, 610, 140, 650]
+        },
+        "4": {
+          "validity": [100, 634, 370, 620],
+          "amount": [430, 610, 140, 650]
+        }
+      }
+    },
+    "20": {
+      "input_video_path": "input_videos/20.mp4",
+      "empty_value_video_path": "empty_videos/20.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time": 24.07,
+      "amount_start_time": 27.11,
+      "val_text_start_time": 22.50,
+      "val_text_end_time": 27.80,
+      "amnt_text_start_time": 27.90,
+      "amnt_text_end_time": 31.90,
+      "speaking_rates": {
+        "1": 0.8,
+        "2": 0.8,
+        "3": 0.9,
+        "4": 1.1
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [570, 580, 570, 580],
+          "amount": [135, 585, 135, 585]
+        },
+        "2": {
+          "validity": [570, 580, 570, 580],
+          "amount": [105, 585, 105, 585]
+        },
+        "3": {
+          "validity": [570, 580, 570, 580],
+          "amount": [95, 585, 95, 585]
+        },
+        "4": {
+          "validity": [570, 580, 570, 580],
+          "amount": [85, 585, 85, 585]
+        }
+      }
+    },
+    "21": {
+      "input_video_path": "input_videos/21.mp4",
+      "empty_value_video_path": "empty_videos/21.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time": 23.00,
+      "amount_start_time": 26.00,
+      "val_text_start_time": 20.80,
+      "val_text_end_time": 26.05,
+      "amnt_text_start_time": 26.20,
+      "amnt_text_end_time": 30.85,
+      "speaking_rates": {
+        "1": 0.8,
+        "2": 0.8,
+        "3": 0.9,
+        "4": 1.0
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [590, 580, 600, 580],
+          "amount": [125, 585, 125, 585]
+        },
+        "2": {
+          "validity": [585, 580, 595, 580],
+          "amount": [115, 585, 115, 585]
+        },
+        "3": {
+          "validity": [575, 580, 585, 580],
+          "amount": [100, 585, 100, 585]
+        },
+        "4": {
+          "validity": [565, 580, 575, 580],
+          "amount": [85, 585, 85, 585]
+        }
+      }
+    }
+  },
+  
+  "default_config": {
+    "filter_circles": ["14", "21"], 
+    "video_output_dir": "/home/ecore/vicode/VodafoneIdea/output_videos_vi/",
+    "public_url_base": "http://223.178.214.22/vid"
+  }
+}

@@ -1,0 +1,676 @@
+{
+  "video_configs": {
+  "1": {
+    "input_video_path": "input_videos/01.mp4",
+    "empty_value_video_path": "empty_videos/01.mp4",
+    "is_dynamic_font_circle": false,
+    "language_code": "te-IN",
+    "tts_voice_name": "te-IN-Chirp3-HD-Achernar",
+    "validity_start_time": 23.5,
+    "amount_start_time": 26.6,
+    "val_text_start_time": 24.1,
+    "val_text_end_time": 31.3,
+    "amnt_text_start_time": 24.1,
+    "amnt_text_end_time": 31.3,
+    "speaking_rates": {
+      "1": 1.0,
+      "2": 1.1,
+      "3": 1.4,
+      "4": 1.8
+    },
+    "coordinates_map": {
+      "1": {
+        "validity": [100, 815, 125, 865],
+        "amount": [965, 810, 985, 875]
+      },
+      "2": {
+        "validity": [85, 815, 105, 865],
+        "amount": [965, 810, 985, 875]
+      },
+      "3": {
+        "validity": [75, 815, 95, 865],
+        "amount": [965, 810, 985, 875]
+      },
+      "4": {
+        "validity": [75, 815, 95, 865],
+        "amount": [965, 810, 985, 875]
+      }
+    }
+    },
+    "2": {
+    "input_video_path": "input_videos/02.mp4",
+    "empty_value_video_path": "empty_videos/02.mp4",
+    "is_dynamic_font_circle": false,
+    "language_code": "ta-IN",
+    "tts_voice_name": "ta-IN-Chirp3-HD-Sulafat",
+    "validity_start_time": 23.7,
+    "amount_start_time": 27.6,
+    "val_text_start_time": 24.2,
+    "val_text_end_time": 26.9,
+    "amnt_text_start_time": 26.9,
+    "amnt_text_end_time": 30.1,
+    "speaking_rates": {
+      "1": 1.0,
+      "2": 1.2,
+      "3": 1.5,
+      "4": 1.7
+    },
+    "coordinates_map": {
+      "1": {
+        "validity": [135, 870, 215, 920],
+        "amount": [860, 870, 940, 920]
+      },
+      "2": {
+        "validity": [105, 870, 185, 920],
+        "amount": [840, 870, 920, 920]
+      },
+      "3": {
+        "validity": [105, 870, 185, 920],
+        "amount": [840, 870, 920, 920]
+      },
+      "4": {
+        "validity": [105, 870, 185, 920],
+        "amount": [840, 870, 920, 920]
+      }
+    }
+    },
+    "3": {
+    "input_video_path": "input_videos/03.mp4",
+    "empty_value_video_path": "empty_videos/03.mp4",
+    "is_dynamic_font_circle": true,
+    "language_code": "hi-IN",
+    "tts_voice_name": "hi-IN-Neural2-A",
+    "validity_start_time": 19.0,
+    "amount_start_time": 22.6,
+    "val_text_start_time": 16.3,
+    "val_text_end_time": 21.3,
+    "amnt_text_start_time": 22.6,
+    "amnt_text_end_time": 29.4,
+    "speaking_rates": {
+      "1": 0.7,
+      "2": 0.7,
+      "3": 1.0,
+      "4": 1.4
+    },
+    "coordinates_map": {
+      "1": {
+        "validity": [116, 292, 216, 357],
+        "amount": [176, 278, 286, 328]
+      },
+      "2": {
+        "validity": [116, 292, 216, 357],
+        "amount": [176, 278, 286, 328]
+      },
+      "3": {
+        "validity": [102, 292, 202, 357],
+        "amount": [173, 278, 283, 328]
+      },
+      "4": {
+        "validity": [105, 292, 205, 357],
+        "amount": [171, 278, 281, 328]
+      }
+    }
+    },
+    "4": {
+      "input_video_path": "input_videos/04.mp4",
+      "empty_value_video_path": "empty_videos/04.mp4",
+      "is_dynamic_font_circle": true,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time" : 19.3,
+      "amount_start_time" : 22.6,
+      "val_text_start_time" : 16.8,
+      "val_text_end_time" : 20.9,
+      "amnt_text_start_time" : 20.9,
+      "amnt_text_end_time" : 27.4,
+      "speaking_rates": {
+        "1": 0.8,
+        "2": 0.8,
+        "3": 1.1,
+        "4": 1.5
+      },
+      "coordinates_map": {
+        "1": {
+        "validity": [217, 285, 317, 335],
+        "amount": [177, 275, 287, 325]
+        },
+        "2": {
+            "validity": [215, 285, 315, 335],
+            "amount": [178, 275, 288, 325]
+        },
+        "3": {
+            "validity": [209, 285, 309, 335],
+            "amount": [172, 275, 282, 325]
+        },
+        "4": {
+            "validity": [208, 286, 308, 336],
+            "amount": [171, 280, 281, 330]
+        }
+      }
+    },
+    "5": {
+      "input_video_path": "input_videos/05.mp4",
+      "empty_value_video_path": "empty_videos/05.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time": 18.3,
+      "amount_start_time": 21.9,
+      "val_text_start_time": 16.5,
+      "val_text_end_time": 20.8,
+      "amnt_text_start_time": 20.8,
+      "amnt_text_end_time": 26.9,
+      "speaking_rates": {
+        "1": 0.7,
+        "2": 0.7,
+        "3": 1.0,
+        "4": 1.4
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [543, 947, 553, 1047],
+          "amount": [735, 902, 745, 952]
+        },
+        "2": {
+          "validity": [516, 985, 540, 1005],
+          "amount": [720, 920, 740, 940]
+        },
+        "3": {
+          "validity": [512, 985, 536, 1005],
+          "amount": [716, 920, 739, 940]
+        },
+        "4": {
+          "validity": [495, 985, 514, 1005],
+          "amount": [710, 920, 735, 940]
+        }
+      }
+    },    
+    "6": {
+      "input_video_path": "input_videos/06.mp4",
+      "empty_value_video_path": "empty_videos/06.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time": 18.8,
+      "amount_start_time": 22.2,
+      "val_text_start_time": 16.5,
+      "val_text_end_time": 21.6,
+      "amnt_text_start_time": 21.6,
+      "amnt_text_end_time": 27.3,
+      "speaking_rates": {
+        "1": 0.7,
+        "2": 0.7,
+        "3": 1.0,
+        "4": 1.4
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [116, 292, 216, 357],
+          "amount": [176, 278, 286, 328]
+        },
+        "2": {
+          "validity": [516, 985, 540, 1005],
+          "amount": [720, 920, 740, 940]
+        },
+        "3": {
+          "validity": [505, 985, 529, 1005],
+          "amount": [716, 920, 739, 940]
+        },
+        "4": {
+          "validity": [475, 985, 495, 1005],
+          "amount": [702, 920, 728, 940]
+        }
+      }
+    },
+    "7": {
+      "input_video_path": "input_videos/07.mp4",
+      "empty_value_video_path": "empty_videos/07.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "kn-IN",
+      "tts_voice_name": "kn-IN-Standard-C",
+      "validity_start_time": 21.5,
+      "amount_start_time": 25.4,
+      "val_text_start_time": 20.0,
+      "val_text_end_time": 23.9,
+      "amnt_text_start_time": 27.5,
+      "amnt_text_end_time": 29.2,
+      "speaking_rates": {
+        "1": 1.0,
+        "2": 1.2,
+        "3": 1.4,
+        "4": 1.8
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [540, 915, 465, 965],
+          "amount": [845, 885, 770, 940]
+        },
+        "2": {
+          "validity": [520, 915, 445, 965],
+          "amount": [845, 885, 770, 940]
+        },
+        "3": {
+          "validity": [520, 915, 445, 965],
+          "amount": [845, 885, 770, 940]
+        },
+        "4": {
+          "validity": [480, 915, 405, 965],
+          "amount": [845, 885, 770, 940]
+        }
+      }
+    },
+    "8": {
+      "input_video_path": "input_videos/08.mp4",
+      "empty_value_video_path": "empty_videos/08.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "bn-IN",
+      "tts_voice_name": "bn-IN-Chirp3-HD-Callirrhoe",
+      "validity_start_time": 28.16,
+      "amount_start_time": 33.20,
+      "val_text_start_time": 28.80,
+      "val_text_end_time": 32.06,
+      "amnt_text_start_time": 33.15,
+      "amnt_text_end_time": 37.10,
+      "speaking_rates": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.4
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [280, 870,390, 350],
+          "amount": [150, 906, 490, 320]
+        },
+        "2": {
+	  "validity": [280, 870,390, 350],
+          "amount": [150, 906, 490, 320]
+        },
+        "3": {
+          "validity": [280, 870,390, 350],
+          "amount": [150, 906, 490, 320]
+        },
+        "4": {
+          "validity": [280, 870,390, 350],
+          "amount": [150, 906, 490, 320]
+        }
+      }
+    },
+    "9": {
+      "input_video_path": "input_videos/09.mp4",
+      "empty_value_video_path": "empty_videos/09.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time": 23.1,
+      "amount_start_time": 26.7,
+      "val_text_start_time": 22.8,
+      "val_text_end_time": 25.8,
+      "amnt_text_start_time": 25.8,
+      "amnt_text_end_time": 28.3,
+      "speaking_rates": {
+        "1": 0.8,
+        "2": 0.9,
+        "3": 1.0,
+        "4": 1.2
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [795, 950, 875, 1000],
+          "amount": [775, 950, 855, 1000]
+        },
+        "2": {
+          "validity": [795, 950, 875, 1000],
+          "amount": [775, 950, 855, 1000]
+        },
+        "3": {
+          "validity": [795, 950, 875, 1000],
+          "amount": [775, 950, 855, 1000]
+        },
+        "4": {
+          "validity": [795, 950, 875, 1000],
+          "amount": [775, 950, 855, 1000]
+        }
+      }
+    },
+    "10": {
+      "input_video_path": "input_videos/10.mp4",
+      "empty_value_video_path": "empty_videos/10.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time": 23.1,
+      "amount_start_time": 26.0,
+      "val_text_start_time": 20.2,
+      "val_text_end_time": 26.5,
+      "amnt_text_start_time": 26.5,
+      "amnt_text_end_time": 30.5,
+      "speaking_rates": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.2,
+        "4": 1.4
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [560, 600, 630, 560],
+          "amount": [55, 635, 185, 535]
+        },
+        "2": {
+          "validity": [560, 600, 630, 560],
+          "amount": [55, 635, 185, 535]
+        },
+        "3": {
+          "validity": [540, 600, 610, 560],
+          "amount": [45, 635, 175, 535]
+        },
+        "4": {
+          "validity": [540, 600, 610, 560],
+          "amount": [25, 635, 150, 535]
+        }
+      }
+    },
+    "11": {
+      "input_video_path": "input_videos/11.mp4",
+      "empty_value_video_path": "empty_videos/11.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "bn-IN",
+      "tts_voice_name": "bn-IN-Chirp3-HD-Callirrhoe",
+      "validity_start_time" : 27.2,
+      "amount_start_time" : 29.1,
+      "val_text_start_time" : 27.7,
+      "val_text_end_time" : 36.3,
+      "amnt_text_start_time" : 27.7,
+      "amnt_text_end_time" : 36.3,
+      "speaking_rates": {
+        "1": 1.0,
+        "2": 1.2,
+        "3": 1.4,
+        "4": 1.8
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [415, 755, 440, 805],
+          "amount": [880, 705, 890, 855]
+        },
+        "2": {
+          "validity": [405, 755, 430, 805],
+          "amount": [880, 705, 890, 855]
+        },
+        "3": {
+          "validity": [395, 755, 420, 805],
+          "amount": [870, 705, 880, 855]
+        },
+        "4": {
+          "validity": [395, 755, 420, 805],
+          "amount": [870, 705, 880, 855]
+        }
+      }
+    },
+    "12": {
+      "input_video_path": "input_videos/12.mp4",
+      "empty_value_video_path": "empty_videos/12.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time": 19.0,
+      "amount_start_time": 22.2,
+      "val_text_start_time": 16.7,
+      "val_text_end_time": 21.4,
+      "amnt_text_start_time": 21.4,
+      "amnt_text_end_time": 27.4,
+      "speaking_rates": {
+        "1": 0.7,
+        "2": 0.7,
+        "3": 1.0,
+        "4": 1.4
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [543, 947, 553, 1047],
+          "amount": [735, 902, 745, 952]
+        },
+        "2": {
+          "validity": [516, 985, 540, 1005],
+          "amount": [720, 920, 740, 940]
+        },
+        "3": {
+          "validity": [505, 985, 529, 1005],
+          "amount": [716, 920, 739, 940]
+        },
+        "4": {
+          "validity": [475, 985, 495, 1005],
+          "amount": [702, 920, 728, 940]
+        }
+      }
+    },
+    "13": {
+      "input_video_path": "input_videos/13.mp4",
+      "empty_value_video_path": "empty_videos/13.mp4",
+      "is_dynamic_font_circle": true,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time" : 19.3,
+      "amount_start_time" : 22.6,
+      "val_text_start_time" : 16.8,
+      "val_text_end_time" : 20.9,
+      "amnt_text_start_time" : 20.9,
+      "amnt_text_end_time" : 27.4,
+      "speaking_rates": {
+        "1": 0.7,
+        "2": 0.7,
+        "3": 1.0,
+        "4": 1.4
+      },
+      "coordinates_map": {
+        "1": {
+        "validity": [217, 285, 317, 335],
+        "amount": [177, 275, 287, 325]
+        },
+        "2": {
+            "validity": [215, 285, 315, 335],
+            "amount": [178, 275, 288, 325]
+        },
+        "3": {
+            "validity": [209, 285, 309, 335],
+            "amount": [172, 275, 282, 325]
+        },
+        "4": {
+            "validity": [208, 286, 308, 336],
+            "amount": [171, 280, 281, 330]
+        }
+      }
+    },
+    "14": {
+      "input_video_path": "input_videos/14.mp4",
+      "empty_value_video_path": "empty_videos/14.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "mr-IN",
+      "tts_voice_name": "mr-IN-Standard-A",
+      "validity_start_time" : 24.6,
+      "amount_start_time" : 27.7,
+      "val_text_start_time" : 22.4,
+      "val_text_end_time" : 27.9,
+      "amnt_text_start_time" : 27.9,
+      "amnt_text_end_time" : 36.1,
+      "speaking_rates": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.2,
+        "4": 1.4
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [560, 790, 780, 710],
+          "amount": [255, 890, 275, 940]
+        },
+        "2": {
+          "validity": [540, 790, 760, 710],
+          "amount": [40, 850, 210, 650]
+        },
+        "3": {
+          "validity": [540, 790, 760, 710],
+          "amount": [40, 850, 190, 660]
+        },
+        "4": {
+          "validity": [520, 800, 760, 700],
+          "amount": [10, 850, 180, 650]
+        }
+      }
+    },
+    "15": {
+    "input_video_path": "input_videos/15.mp4",
+    "empty_value_video_path": "empty_videos/15.mp4",
+    "is_dynamic_font_circle": false,
+    "language_code": "ta-IN",
+    "tts_voice_name": "ta-IN-Chirp3-HD-Sulafat",
+    "validity_start_time": 23.7,
+    "amount_start_time": 27.6,
+    "val_text_start_time": 24.2,
+    "val_text_end_time": 26.9,
+    "amnt_text_start_time": 26.9,
+    "amnt_text_end_time": 30.1,
+    "speaking_rates": {
+      "1": 1.0,
+      "2": 1.2,
+      "3": 1.5,
+      "4": 1.7
+    },
+    "coordinates_map": {
+      "1": {
+        "validity": [135, 870, 215, 920],
+        "amount": [860, 870, 940, 920]
+      },
+      "2": {
+        "validity": [105, 870, 185, 920],
+        "amount": [840, 870, 920, 920]
+      },
+      "3": {
+        "validity": [105, 870, 185, 920],
+        "amount": [840, 870, 920, 920]
+      },
+      "4": {
+        "validity": [105, 870, 185, 920],
+        "amount": [840, 870, 920, 920]
+      }
+    }
+    },
+    "16": {
+      "input_video_path": "input_videos/16.mp4",
+      "empty_value_video_path": "empty_videos/16.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "ml-IN",
+      "tts_voice_name": "ml-IN-Chirp3-HD-Achernar",
+      "validity_start_time": 12.9,
+      "amount_start_time": 14.9,
+      "val_text_start_time": 13.0,
+      "val_text_end_time": 15.3,
+      "amnt_text_start_time": 15.3,
+      "amnt_text_end_time": 18.2,
+      "speaking_rates": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.2,
+        "4": 1.6
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [920, 765, 930, 935],
+          "amount": [775, 790, 800, 845]
+        },
+        "2": {
+          "validity": [920, 765, 930, 935],
+          "amount": [775, 790, 800, 845]
+        },
+        "3": {
+          "validity": [920, 765, 930, 935],
+          "amount":  [775, 790, 800, 845]
+        },
+        "4": {
+          "validity": [920, 765, 930, 935],
+          "amount": [775, 790, 800, 845]
+        }
+      }
+    },
+    "20": {
+      "input_video_path": "input_videos/20.mp4",
+      "empty_value_video_path": "empty_videos/20.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time": 19.5,
+      "amount_start_time": 23.5,
+      "val_text_start_time": 16.9,
+      "val_text_end_time": 22.0,
+      "amnt_text_start_time": 22.0,
+      "amnt_text_end_time": 27.7,
+      "speaking_rates": {
+        "1": 0.7,
+        "2": 0.7,
+        "3": 1.0,
+        "4": 1.4
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [543, 947, 553, 1047],
+          "amount": [735, 902, 745, 952]
+        },
+        "2": {
+          "validity": [516, 985, 540, 1005],
+          "amount": [720, 920, 740, 940]
+        },
+        "3": {
+          "validity": [505, 985, 529, 1005],
+          "amount": [716, 920, 739, 940]
+        },
+        "4": {
+          "validity": [475, 985, 495, 1005],
+          "amount": [702, 920, 728, 940]
+        }
+      }
+    },
+    "21": {
+      "input_video_path": "input_videos/21.mp4",
+      "empty_value_video_path": "empty_videos/21.mp4",
+      "is_dynamic_font_circle": false,
+      "language_code": "hi-IN",
+      "tts_voice_name": "hi-IN-Neural2-A",
+      "validity_start_time": 19.2,
+      "amount_start_time": 22.7,
+      "val_text_start_time": 17.4,
+      "val_text_end_time": 22.5,
+      "amnt_text_start_time": 22.5,
+      "amnt_text_end_time": 28.1,
+      "speaking_rates": {
+        "1": 0.7,
+        "2": 0.7,
+        "3": 1.0,
+        "4": 1.4
+      },
+      "coordinates_map": {
+        "1": {
+          "validity": [116, 292, 216, 357],
+          "amount": [176, 278, 286, 328]
+        },
+        "2": {
+          "validity": [516, 985, 540, 1005],
+          "amount": [720, 920, 740, 940]
+        },
+        "3": {
+          "validity": [505, 985, 529, 1005],
+          "amount": [716, 920, 739, 940]
+        },
+        "4": {
+          "validity": [475, 985, 495, 1005],
+          "amount": [702, 920, 728, 940]
+        }
+      }
+    }
+  },
+  
+  "default_config": {
+    "circle": "6",
+    "video_output_dir": "/var/www/html/vid",
+    "public_url_base": "http://223.178.214.22/vid"
+  }
+}

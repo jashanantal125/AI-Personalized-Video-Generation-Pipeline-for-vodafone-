@@ -1,0 +1,91 @@
+CREATE TABLE campaigns (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    campaign_name VARCHAR(100) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    processed_records INT DEFAULT 0,
+    status ENUM('ongoing', 'completed', 'paused') DEFAULT 'ongoing',
+    INDEX idx_created_at (created_at)
+);
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    campaign_id INT NOT NULL,
+    mobile VARCHAR(15) NOT NULL,
+    current_balance DECIMAL(10,2) NOT NULL,
+    validity_dt DATE NOT NULL,
+    validity_in_days INT NOT NULL,
+    status ENUM('pending', 'processed', 'failed') DEFAULT 'pending',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (campaign_id) REFERENCES campaigns(id) ON DELETE CASCADE,
+    UNIQUE KEY unique_campaign_mobile (campaign_id, mobile),
+    INDEX idx_mobile (mobile),
+    INDEX idx_status (status),
+    INDEX idx_campaign_status (campaign_id, status),
+    INDEX idx_validity_days (validity_in_days)
+);
+
+-- Recreate videos_table with updated foreign key
+CREATE TABLE videos_table (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    users_id INT NOT NULL,
+    video_public_url VARCHAR(500) NOT NULL,
+    generation_status ENUM('pending', 'completed', 'failed') DEFAULT 'pending',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (users_id) REFERENCES users(id) ON DELETE CASCADE,
+    INDEX idx_users_id (users_id),
+    INDEX idx_generation_status (generation_status)
+);
+
+-- Recreate logging_table with updated foreign keys
+CREATE TABLE logging_table (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    campaign_id INT NOT NULL,
+    users_id INT NOT NULL,
+    video_id INT NOT NULL,
+    delivery_status ENUM('sent', 'failed', 'pending') DEFAULT 'pending',
+    sent_at TIMESTAMP NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (campaign_id) REFERENCES campaigns(id) ON DELETE CASCADE,
+    FOREIGN KEY (users_id) REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (video_id) REFERENCES videos_table(id) ON DELETE CASCADE,
+    INDEX idx_campaign_id (campaign_id),
+    INDEX idx_users_id (users_id),
+    INDEX idx_video_id (video_id),
+    INDEX idx_delivery_status (delivery_status)
+);
+
+-- Changes for multi threading video processing.
+
+SET FOREIGN_KEY_CHECKS = 0;
+
+ALTER TABLE users ADD COLUMN circle_name VARCHAR(10) NULL AFTER mobile;
+CREATE INDEX idx_circle_name ON users(circle_name);
+
+
+-- Remove circle_name column from campaigns table
+ALTER TABLE campaigns DROP COLUMN circle_name;
+
+-- Add total_users column to campaigns table
+ALTER TABLE campaigns ADD COLUMN total_users INT DEFAULT 0 AFTER processed_records;
+
+-- Optional: Update existing campaigns to have correct total_users count
+UPDATE campaigns c 
+SET total_users = (
+    SELECT COUNT(*) 
+    FROM users u 
+    WHERE u.campaign_id = c.id
+);
+
+TRUNCATE TABLE users; TRUNCATE TABLE videos_table; TRUNCATE TABLE campaigns; TRUNCATE TABLE logging_table;
+
+SELECT 
+    c.campaign_name,
+    c.total_users as users_uploaded,
+    COALESCE(COUNT(DISTINCT l.id), 0) as messages_sent,
+    COALESCE(COUNT(DISTINCT v.id), 0) as videos_processed
+FROM campaigns c
+LEFT JOIN users u ON c.id = u.campaign_id
+LEFT JOIN logging_table l ON c.id = l.campaign_id AND l.delivery_status = 'sent'
+LEFT JOIN videos_table v ON u.id = v.users_id AND v.generation_status = 'completed'
+WHERE c.id = 36
+GROUP BY c.id, c.campaign_name, c.total_users;

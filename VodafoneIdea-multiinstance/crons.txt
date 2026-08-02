@@ -1,0 +1,15 @@
+*/2 * * * * cd /home/ecore/vicode && /home/ecore/vicode/venv/bin/python3 script_1.py >> /home/ecore/script_1.log 2>&1
+*/2 8-19 * * * cd /home/ecore/vicode && /home/ecore/vicode/venv/bin/python3 script_3.py >> /home/ecore/script_3.log 2>&1
+
+# Transfer csv vi files to vicode>vi_files through sftp every 3 min.
+1-59/3 * * * * /home/ecore/vicode/sftp_csv_transfer.sh
+
+# New automated script 1, For adding decrypted data to db
+2-59/3 * * * * cd /home/ecore/vicode && /home/ecore/vicode/venv/bin/python3 /home/ecore/vicode/script_1_automated.py >> /home/ecore/vicode/cron_script1_automated.log 2>&1
+
+# Start worker at 10 AM daily
+0 8 * * * /home/ecore/vicode/start_workers.sh >> /home/ecore/cron.log 2>&1
+
+# Stop worker at 8 PM daily
+0 19 * * * /home/ecore/vicode/stop_workers.sh >> /home/ecore/cron.log 2>&1
+

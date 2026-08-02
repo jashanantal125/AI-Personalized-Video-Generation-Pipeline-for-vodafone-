@@ -1,0 +1,42 @@
+# Secrets & credentials
+**/svc.json
+**/.env
+**/.env.*
+**/credentials*.json
+**/packages.microsoft.gpg
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/venv/
+**/.venv/
+
+# Runtime / ops artifacts
+**/logs/
+**/temp/
+**/temp_worker*/
+**/output_videos_vi/
+**/vi_server_files/
+**/vi_server_files_redirect/
+**/smpl_videos/
+**/executed_num_sheets/
+**/whatsapp*
+**/incoming*
+**/vi_server_data*
+
+# Client / PII sample dumps (not for public or showcase repos)
+**/csv_files/
+**/*.log
+cron_script1*
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Daily duplicate registries may contain real mobiles
+**/input_numbers/*.csv
+
+# Generated personalized videos (often contain MSISDNs in filenames)
+**/videos/

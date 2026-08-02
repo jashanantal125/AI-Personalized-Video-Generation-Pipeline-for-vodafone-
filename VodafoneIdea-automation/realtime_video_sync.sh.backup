@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Variables
+SOURCE_DIR="/home/ecore/vicode/VodafoneIdea/output_videos_vi/"
+DEST_USER="ecore"
+DEST_HOST="10.0.0.1"
+DEST_DIR="/var/www/html/vid/"
+LOG_FILE="/home/ecore/rsync_video.log"
+
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] ===== Real-time sync service started =====" >> "$LOG_FILE"
+
+# Monitor directory for new files in real-time
+inotifywait -m -e close_write -e moved_to "$SOURCE_DIR" --format '%w%f' | while read FILEPATH
+do
+    FILENAME=$(basename "$FILEPATH")
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] New file detected: $FILENAME" >> "$LOG_FILE"
+    
+    # Sync the specific file immediately
+    rsync -avz "$FILEPATH" "${DEST_USER}@${DEST_HOST}:${DEST_DIR}" 2>&1 | \
+    awk '{ print strftime("[%Y-%m-%d %H:%M:%S]"), $0; fflush(); }' >> "$LOG_FILE"
+    
+    if [ ${PIPESTATUS[0]} -eq 0 ]; then
+        # Set permissions on server1
+        ssh "${DEST_USER}@${DEST_HOST}" "sudo chown www-data:www-data ${DEST_DIR}${FILENAME} && sudo chmod 644 ${DEST_DIR}${FILENAME}"
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] Successfully synced: $FILENAME" >> "$LOG_FILE"
+    else
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] ERROR syncing: $FILENAME" >> "$LOG_FILE"
+    fi
+done

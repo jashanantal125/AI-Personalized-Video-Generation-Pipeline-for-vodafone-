@@ -1,0 +1,14 @@
+# m h  dom mon dow   command
+
+* * * * * /opt/forticlient/vpn-auto-reconnect.exp
+
+# Transfer csv vi files to vicode>vi_files through sftp every 3 min.
+1-59/3 * * * * /home/ecore/vicode/VodafoneIdea/sftp_csv_transfer.sh
+
+# New automated script 1, For adding decrypted data to db
+2-59/3 * * * * cd /home/ecore/vicode/VodafoneIdea && /home/ecore/vicode/VodafoneIdea/venv/bin/python3 /home/ecore/vicode/VodafoneIdea/script_1_automated.py >> /home/ecore/vicode/VodafoneIdea/cron_script1_automated.log 2>&1
+
+# Cron for Script 3
+*/3 8-19 * * * cd /home/ecore/vicode/VodafoneIdea && /home/ecore/vicode/VodafoneIdea/venv/bin/python3 script_3.py >> logs/script_3_cron.log 2>&1
+
+0 8-22/2 * * * /home/ecore/vicode/VodafoneIdea/venv/bin/python3 /home/ecore/vicode/VodafoneIdea/monitor_scripts.py >> /home/ecore/vicode/VodafoneIdea/logs/monitor.log 2>&1
